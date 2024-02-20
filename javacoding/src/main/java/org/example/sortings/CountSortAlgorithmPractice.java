@@ -28,7 +28,8 @@ public class CountSortAlgorithmPractice {
         // checking the maxvalue is less
         while (i < (MAX_VALUE + 1)) {
             if (c[i] > 0) {
-                a[j++] = i;
+                a[j] = i;
+                j++;
                 c[i]--;
 
             } else {
