@@ -13,7 +13,7 @@ public class CountSortAlgorithmPractice {
         }
 
     }
-
+    //sorting the given elements
     private static int[] sortingELements(int MAX_VALUE, int[] a) {
         int[] c = new int[MAX_VALUE + 1];
 
@@ -39,10 +39,10 @@ public class CountSortAlgorithmPractice {
         }
         return a;
     }
-
+    //finding maximum value for
     private static int findingMaxValue(int[] a) {
         int max = a[0];
-
+        //finding max value
         for (int i = 1; i < a.length; i++) {
             if (max < a[i]) {
                 max = a[i];
