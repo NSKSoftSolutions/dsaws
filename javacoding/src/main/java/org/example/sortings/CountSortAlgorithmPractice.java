@@ -25,6 +25,7 @@ public class CountSortAlgorithmPractice {
         }
         int j = 0;
         int i = 0;
+        // checking the maxvalue is less
         while (i < (MAX_VALUE + 1)) {
             if (c[i] > 0) {
                 a[j] = i;
